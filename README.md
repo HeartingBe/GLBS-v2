@@ -104,6 +104,9 @@ data remove storage mny:glbs money_modify
 ### 技术性信息
 
 命名空间 `glbshop`
+
 scoreboard 前缀 `GLBS`
+
 实体标签前缀 `GLBS`
+
 单次命令执行上限 `524280`(原版默认为 `65536`，GLBS 将它扩大到 `8` 倍)

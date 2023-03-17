@@ -1,0 +1,723 @@
+{
+   "pools": [
+      {
+         "rolls": 4,
+         "entries": [
+            {
+               "type": "minecraft:item",
+               "name": "minecraft:black_stained_glass_pane"
+            }
+         ],
+         "functions": [
+            {
+               "function": "minecraft:set_name",
+               "name": {
+                  "text": "小业是个呆瓜",
+                  "color": "light_purple",
+                  "italic": false
+               }
+            },
+            {
+               "function": "minecraft:set_nbt",
+               "tag": "{glbs:{shop:1b}}"
+            }
+         ]
+      },
+      {
+         "rolls": 1,
+         "entries": [
+            {
+               "type": "minecraft:item",
+               "name": "minecraft:gold_ingot"
+            }
+         ],
+         "functions": [
+            {
+               "function": "minecraft:set_name",
+               "name": {
+                  "text": "查看我的金钱",
+                  "color": "yellow",
+                  "italic": false
+               }
+            },
+            {
+               "function": "minecraft:set_lore",
+               "lore": [
+                  {
+                     "text": ""
+                  },
+                  {
+                     "text":"",
+                     "italic": false,
+                     "extra": [
+                        {
+                           "text": "点击 ",
+                           "color": "white"
+                        },
+                        {
+                           "text": "Q",
+                           "color": "yellow"
+                        },
+                        {
+                           "text": " 或 ",
+                           "color": "white"
+                        },
+                        {
+                           "text": "左键",
+                           "color": "yellow"
+                        },
+                        {
+                           "text": " 来查看我的金钱",
+                           "color": "white"
+                        }
+                     ]
+                  }
+               ]
+            },
+            {
+               "function": "minecraft:set_nbt",
+               "tag": "{glbs:{shop:1b}}"
+            }
+         ]
+      },
+      {
+         "rolls": 5,
+         "entries": [
+            {
+               "type": "minecraft:item",
+               "name": "minecraft:black_stained_glass_pane"
+            }
+         ],
+         "functions": [
+            {
+               "function": "minecraft:set_name",
+               "name": {
+                  "text": "小业是个呆瓜",
+                  "color": "light_purple",
+                  "italic": false
+               }
+            },
+            {
+               "function": "minecraft:set_nbt",
+               "tag": "{glbs:{shop:1b}}"
+            }
+         ]
+      },
+      {
+         "rolls": 1,
+         "entries": [
+            {
+               "type": "minecraft:item",
+               "name": "minecraft:diamond"
+            }
+         ],
+         "functions": [
+            {
+               "function": "minecraft:set_name",
+               "name": {
+                  "text": "向其他玩家出售物品",
+                  "color": "gold",
+                  "italic": false
+               }
+            },
+            {
+               "function": "minecraft:set_lore",
+               "lore": [
+                  {
+                     "text": ""
+                  },
+                  {
+                     "text":"",
+                     "italic": false,
+                     "extra": [
+                        {
+                           "text": "按 ",
+                           "color": "white"
+                        },
+                        {
+                           "text": "Q",
+                           "color": "yellow"
+                        },
+                        {
+                           "text": " 或 ",
+                           "color": "white"
+                        },
+                        {
+                           "text": "左键",
+                           "color": "yellow"
+                        },
+                        {
+                           "text": " 来准备出售",
+                           "color": "white"
+                        }
+                     ]
+                  }
+               ]
+            },
+            {
+               "function": "minecraft:set_nbt",
+               "tag": "{glbs:{shop:1b}}"
+            }
+         ]
+      },
+      {
+         "rolls": 1,
+         "entries": [
+            {
+               "type": "minecraft:item",
+               "name": "minecraft:ender_chest"
+            }
+         ],
+         "functions": [
+            {
+               "function": "minecraft:set_name",
+               "name": {
+                  "text": "全球商品",
+                  "color": "yellow",
+                  "italic": false
+               }
+            },
+            {
+               "function": "minecraft:set_lore",
+               "lore": [
+                  {
+                     "text": ""
+                  },
+                  {
+                     "text":"",
+                     "italic": false,
+                     "extra": [
+                        {
+                           "text": "按 ",
+                           "color": "white"
+                        },
+                        {
+                           "text": "Q",
+                           "color": "yellow"
+                        },
+                        {
+                           "text": " 或 ",
+                           "color": "white"
+                        },
+                        {
+                           "text": "左键",
+                           "color": "yellow"
+                        },
+                        {
+                           "text": " 选购全球商品",
+                           "color": "white"
+                        }
+                     ]
+                  }
+               ]
+            },
+            {
+               "function": "minecraft:set_nbt",
+               "tag": "{glbs:{shop:1b}}"
+            }
+         ]
+      },
+      {
+         "rolls": 1,
+         "entries": [
+            {
+               "type": "minecraft:item",
+               "name": "minecraft:chest"
+            }
+         ],
+         "functions": [
+            {
+               "function": "minecraft:set_name",
+               "name": {
+                  "text": "我正在出售的商品",
+                  "color": "yellow",
+                  "italic": false
+               }
+            },
+            {
+               "function": "minecraft:set_lore",
+               "lore": [
+                  {
+                     "text": ""
+                  },
+                  {
+                     "text":"",
+                     "italic": false,
+                     "extra": [
+                        {
+                           "text": "按 ",
+                           "color": "white"
+                        },
+                        {
+                           "text": "Q",
+                           "color": "yellow"
+                        },
+                        {
+                           "text": " 或 ",
+                           "color": "white"
+                        },
+                        {
+                           "text": "左键",
+                           "color": "yellow"
+                        },
+                        {
+                           "text": " 来查看我正在出售的商品",
+                           "color": "white"
+                        }
+                     ]
+                  }
+               ]
+            },
+            {
+               "function": "minecraft:set_nbt",
+               "tag": "{glbs:{shop:1b}}"
+            }
+         ]
+      },
+      {
+         "rolls": 1,
+         "entries": [
+            {
+               "type": "minecraft:item",
+               "name": "minecraft:composter"
+            }
+         ],
+         "functions": [
+            {
+               "function": "minecraft:set_name",
+               "name": {
+                  "text": "退回的物品",
+                  "color": "yellow",
+                  "italic": false
+               }
+            },
+            {
+               "function": "minecraft:set_lore",
+               "lore": [
+                  {
+                     "text": ""
+                  },
+                  {
+                     "text":"",
+                     "italic": false,
+                     "extra": [
+                        {
+                           "text": "按 ",
+                           "color": "white"
+                        },
+                        {
+                           "text": "Q",
+                           "color": "yellow"
+                        },
+                        {
+                           "text": " 或 ",
+                           "color": "white"
+                        },
+                        {
+                           "text": "左键",
+                           "color": "yellow"
+                        },
+                        {
+                           "text": " 来查看退回的物品",
+                           "color": "white"
+                        }
+                     ]
+                  }
+               ]
+            },
+            {
+               "function": "minecraft:set_nbt",
+               "tag": "{glbs:{shop:1b}}"
+            }
+         ]
+      },
+      {
+         "rolls": 1,
+         "entries": [
+            {
+               "type": "minecraft:item",
+               "name": "minecraft:ender_pearl"
+            }
+         ],
+         "functions": [
+            {
+               "function": "minecraft:set_name",
+               "name": {
+                  "text": "查看历史购买商品",
+                  "color": "yellow",
+                  "italic": false
+               }
+            },
+            {
+               "function": "minecraft:set_lore",
+               "lore": [
+                  {
+                     "text": ""
+                  },
+                  {
+                     "text":"",
+                     "italic": false,
+                     "extra": [
+                        {
+                           "text": "按 ",
+                           "color": "white"
+                        },
+                        {
+                           "text": "Q",
+                           "color": "yellow"
+                        },
+                        {
+                           "text": " 或 ",
+                           "color": "white"
+                        },
+                        {
+                           "text": "左键",
+                           "color": "yellow"
+                        },
+                        {
+                           "text": " 来查看历史购买记录",
+                           "color": "white"
+                        }
+                     ]
+                  }
+               ]
+            },
+            {
+               "function": "minecraft:set_nbt",
+               "tag": "{glbs:{shop:1b}}"
+            }
+         ]
+      },
+      {
+         "rolls": 1,
+         "entries": [
+            {
+               "type": "minecraft:item",
+               "name": "minecraft:ender_eye"
+            }
+         ],
+         "functions": [
+            {
+               "function": "minecraft:set_name",
+               "name": {
+                  "text": "查看历史出售商品",
+                  "color": "yellow",
+                  "italic": false
+               }
+            },
+            {
+               "function": "minecraft:set_lore",
+               "lore": [
+                  {
+                     "text": ""
+                  },
+                  {
+                     "text":"",
+                     "italic": false,
+                     "extra": [
+                        {
+                           "text": "按 ",
+                           "color": "white"
+                        },
+                        {
+                           "text": "Q",
+                           "color": "yellow"
+                        },
+                        {
+                           "text": " 或 ",
+                           "color": "white"
+                        },
+                        {
+                           "text": "左键",
+                           "color": "yellow"
+                        },
+                        {
+                           "text": " 来查看历史出售记录",
+                           "color": "white"
+                        }
+                     ]
+                  }
+               ]
+            },
+            {
+               "function": "minecraft:set_nbt",
+               "tag": "{glbs:{shop:1b}}"
+            }
+         ]
+      },
+      {
+         "rolls": 1,
+         "entries": [
+            {
+               "type": "minecraft:item",
+               "name": "minecraft:structure_void"
+            }
+         ],
+         "functions": [
+            {
+               "function": "minecraft:set_name",
+               "name": {
+                  "text": "返回主菜单",
+                  "color": "red",
+                  "italic": false
+               }
+            },
+            {
+               "function": "minecraft:set_lore",
+               "lore": [
+                  {
+                     "text": ""
+                  },
+                  {
+                     "text":"",
+                     "italic": false,
+                     "extra": [
+                        {
+                           "text": "按 ",
+                           "color": "white"
+                        },
+                        {
+                           "text": "Q",
+                           "color": "yellow"
+                        },
+                        {
+                           "text": " 或 ",
+                           "color": "white"
+                        },
+                        {
+                           "text": "左键",
+                           "color": "yellow"
+                        },
+                        {
+                           "text": " 回到主菜单",
+                           "color": "white"
+                        }
+                     ]
+                  }
+               ]
+            },
+            {
+               "function": "minecraft:set_nbt",
+               "tag": "{glbs:{shop:1b}}"
+            }
+         ]
+      },
+      {
+         "rolls": 4,
+         "entries": [
+            {
+               "type": "minecraft:item",
+               "name": "minecraft:black_stained_glass_pane"
+            }
+         ],
+         "functions": [
+            {
+               "function": "minecraft:set_name",
+               "name": {
+                  "text": "小业是个呆瓜",
+                  "color": "light_purple",
+                  "italic": false
+               }
+            },
+            {
+               "function": "minecraft:set_nbt",
+               "tag": "{glbs:{shop:1b}}"
+            }
+         ]
+      },
+      {
+         "rolls": 1,
+         "entries": [
+            {
+               "type": "minecraft:item",
+               "name": "minecraft:arrow"
+            }
+         ],
+         "functions": [
+            {
+               "function": "minecraft:set_name",
+               "name": {
+                  "text": "页面跳转",
+                  "color": "yellow",
+                  "italic": false
+               }
+            },
+            {
+               "function": "minecraft:set_lore",
+               "lore": [
+                  {
+                     "text": ""
+                  },
+                  {
+                     "text":"",
+                     "italic": false,
+                     "extra": [
+                        {
+                           "text": "按 ",
+                           "color": "white"
+                        },
+                        {
+                           "text": "Q",
+                           "color": "yellow"
+                        },
+                        {
+                           "text": " 或 ",
+                           "color": "white"
+                        },
+                        {
+                           "text": "左键",
+                           "color": "yellow"
+                        },
+                        {
+                           "text": " 来准备跳转到某个页数的页面",
+                           "color": "white"
+                        }
+                     ]
+                  }
+               ]
+            },
+            {
+               "function": "minecraft:set_nbt",
+               "tag": "{glbs:{shop:1b}}"
+            }
+         ]
+      },
+      {
+         "rolls": 1,
+         "entries": [
+            {
+               "type": "minecraft:item",
+               "name": "minecraft:golden_pickaxe"
+            }
+         ],
+         "functions": [
+            {
+               "function": "minecraft:set_name",
+               "name": {
+                  "text": "领取收入",
+                  "color": "gold",
+                  "italic": false
+               }
+            },
+            {
+               "function": "minecraft:set_lore",
+               "lore": [
+                  {
+                     "text": ""
+                  },
+                  {
+                     "text":"",
+                     "italic": false,
+                     "extra": [
+                        {
+                           "text": "按 ",
+                           "color": "white"
+                        },
+                        {
+                           "text": "Q",
+                           "color": "yellow"
+                        },
+                        {
+                           "text": " 或 ",
+                           "color": "white"
+                        },
+                        {
+                           "text": "左键",
+                           "color": "yellow"
+                        },
+                        {
+                           "text": " 来领取出售商品的收入",
+                           "color": "white"
+                        }
+                     ]
+                  }
+               ]
+            },
+            {
+               "function": "minecraft:set_nbt",
+               "tag": "{glbs:{shop:1b},HideFlags:2}"
+            }
+         ]
+      },
+      {
+         "rolls": 1,
+         "entries": [
+            {
+               "type": "minecraft:item",
+               "name": "minecraft:spectral_arrow"
+            }
+         ],
+         "functions": [
+            {
+               "function": "minecraft:set_name",
+               "name": {
+                  "text": "按编号查找商品",
+                  "color": "yellow",
+                  "italic": false
+               }
+            },
+            {
+               "function": "minecraft:set_lore",
+               "lore": [
+                  {
+                     "text": ""
+                  },
+                  {
+                     "text":"",
+                     "italic": false,
+                     "extra": [
+                        {
+                           "text": "按 ",
+                           "color": "white"
+                        },
+                        {
+                           "text": "Q",
+                           "color": "yellow"
+                        },
+                        {
+                           "text": " 或 ",
+                           "color": "white"
+                        },
+                        {
+                           "text": "左键",
+                           "color": "yellow"
+                        },
+                        {
+                           "text": " 来准备定位到某个编号的商品",
+                           "color": "white"
+                        }
+                     ]
+                  }
+               ]
+            },
+            {
+               "function": "minecraft:set_nbt",
+               "tag": "{glbs:{shop:1b}}"
+            }
+         ]
+      },
+      {
+         "rolls": 4,
+         "entries": [
+            {
+               "type": "minecraft:item",
+               "name": "minecraft:black_stained_glass_pane"
+            }
+         ],
+         "functions": [
+            {
+               "function": "minecraft:set_name",
+               "name": {
+                  "text": "小业是个呆瓜",
+                  "color": "light_purple",
+                  "italic": false
+               }
+            },
+            {
+               "function": "minecraft:set_nbt",
+               "tag": "{glbs:{shop:1b}}"
+            }
+         ]
+      }
+   ]
+}

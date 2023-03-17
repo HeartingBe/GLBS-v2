@@ -1,0 +1,30 @@
+{
+   "replace": false,
+	"values": [
+		"minecraft:black_stained_glass_pane",
+      "minecraft:lime_stained_glass_pane",
+      "minecraft:light_blue_stained_glass_pane",
+      "minecraft:yellow_stained_glass_pane",
+      "minecraft:red_stained_glass_pane",
+      "minecraft:white_stained_glass_pane",
+      "minecraft:player_head",
+      "minecraft:diamond",
+      "minecraft:ender_chest",
+      "minecraft:chest",
+      "minecraft:composter",
+      "minecraft:ender_pearl",
+      "minecraft:ender_eye",
+      "minecraft:barrier",
+      "minecraft:structure_void",
+      "minecraft:arrow",
+      "minecraft:golden_pickaxe",
+      "minecraft:gold_ingot",
+      "minecraft:spectral_arrow",
+      "minecraft:structure_void",
+      "minecraft:green_stained_glass_pane",
+      "minecraft:beacon",
+      "minecraft:barrel",
+      "minecraft:paper",
+      "minecraft:writable_book"
+	]
+}

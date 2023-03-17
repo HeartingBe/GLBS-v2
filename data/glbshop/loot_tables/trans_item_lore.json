@@ -1,0 +1,98 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:stone_button",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{GLBSlore:1b}"
+                        },
+                        {
+                            "function": "minecraft:set_lore",
+                            "entity": "this",
+                            "lore": [
+                                {
+                                   "text": "▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬",
+                                   "color": "gray",
+                                   "italic": false
+                                },
+                                {
+                                    "text": "",
+                                    "italic": false,
+                                    "extra": [
+                                        {
+                                            "text": "金钱",
+                                            "color": "yellow",
+                                            "italic": false
+                                        },
+                                        {
+                                            "text": " >> ",
+                                            "color": "white",
+                                            "italic": false
+                                        },
+                                        {
+                                            "text": "物品",
+                                            "color": "yellow",
+                                            "italic": false
+                                        }
+                                    ]
+                                },
+                                {
+                                    "text": "",
+                                    "italic": false,
+                                    "extra": [
+                                        {
+                                            "score": {
+                                                "name": "#GLBStrans_money",
+                                                "objective": "GLBSinfo"
+                                            },
+                                            "color": "light_purple"
+                                        },
+                                        {
+                                            "text": " >> ",
+                                            "color": "white"
+                                        },
+                                        {
+                                            "score": {
+                                                "name": "#GLBStrans_num",
+                                                "objective": "GLBSinfo"
+                                            },
+                                            "color": "light_purple"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "text": "",
+                                    "italic": false,
+                                    "extra": [
+                                        {
+                                            "text": "按 ",
+                                            "color": "white"
+                                        },
+                                        {
+                                            "text": "左键",
+                                            "color": "yellow"
+                                        },
+                                        {
+                                            "text": " 兑换",
+                                            "color": "white"
+                                        }
+                                    ]
+                                },
+                                {
+                                   "text": "▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬",
+                                   "color": "gray",
+                                   "italic": false
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

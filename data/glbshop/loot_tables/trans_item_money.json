@@ -1,0 +1,49 @@
+{
+   "pools": [
+       {
+           "rolls": 1,
+           "entries": [
+               {
+                   "type": "minecraft:item",
+                   "name": "minecraft:stone_button",
+                   "functions": [
+                       {
+                          "function": "minecraft:set_nbt",
+                          "tag": "{GLBSlore:1b}"
+                       },
+                       {
+                           "function": "minecraft:set_lore",
+                           "entity": "this",
+                           "lore": [
+                               {
+                                   "text": "",
+                                   "italic": false,
+                                   "extra": [
+                                       {
+                                           "score": {
+                                               "name": "#GLBStrans_num",
+                                               "objective": "GLBSinfo"
+                                           },
+                                           "color": "light_purple"
+                                       },
+                                       {
+                                           "text": " >> ",
+                                           "color": "white"
+                                       },
+                                       {
+                                           "score": {
+                                               "name": "#GLBStrans_money",
+                                               "objective": "GLBSinfo"
+                                           },
+                                           "color": "light_purple"
+                                       }
+                                   ]
+                               }
+                           ]
+                       }
+                   ]
+               }
+           ]
+       }
+   ]
+}

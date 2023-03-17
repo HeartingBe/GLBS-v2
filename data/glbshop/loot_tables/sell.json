@@ -1,0 +1,135 @@
+{
+   "pools": [
+      {
+         "rolls": 1,
+         "entries": [
+            {
+               "type": "minecraft:item",
+               "name": "minecraft:stone_button",
+               "functions": [
+                  {
+                     "function": "minecraft:set_nbt",
+                     "tag": "{GLBSlore:1b}"
+                  },
+                  {
+                     "function": "minecraft:set_lore",
+                     "entity": "this",
+                     "lore": [
+                        {
+                           "text": "▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬",
+                           "color": "gray",
+                           "italic": false
+                        },
+                        {
+                           "text": "",
+                           "italic": false,
+                           "extra":[
+                              {
+                                 "text": "商品出售 ",
+                                 "color": "yellow",
+                                 "bold": true
+                              },
+                              {
+                                 "text": "编号: ",
+                                 "color": "white"
+                              },
+                              {
+                                 "score": {
+                                    "name": "#GLBSorder",
+                                    "objective": "GLBSinfo"
+                                 },
+                                 "color": "gold"
+                              }
+                           ]
+                        },
+                        {
+                           "text": ""
+                        },
+                        {
+                           "text": "",
+                           "italic": false,
+                           "extra": [
+                              {
+                                 "text": "商品售价: ","color": "white"
+                              },
+                              {
+                                 "text": "¥",
+                                 "color": "aqua"
+                              },
+                              {
+                                 "score": {
+                                    "name": "@s",
+                                    "objective": "GLBSsell"
+                                 },
+                                 "color": "light_purple"
+                              }
+                           ]
+                        },
+                        {
+                           "text": "",
+                           "italic": false,
+                           "extra": [
+                              {
+                                 "text": "商家信息: ","color": "white"
+                              },
+                              {
+                                 "selector": "@s",
+                                 "color": "yellow"
+                              }
+                           ]
+                        },
+                        {
+                           "text": "",
+                           "italic": false,
+                           "extra": [
+                              {
+                                 "text": "剩余时间: ","color": "white"
+                              },
+                              {
+                                 "score": {
+                                    "name": "#GLBStimer",
+                                    "objective": "GLBSinfo"
+                                 },
+                                 "color": "gray"
+                              },
+                              {
+                                 "text": " 游戏日",
+                                 "color": "gray"
+                              }
+                           ]
+                        },
+                        {
+                           "text": ""
+                        },
+                        {
+                           "text": "",
+                           "italic": false,
+                           "bold": true,
+                           "extra": [
+                              {
+                                 "text": "按 ",
+                                 "color": "white"
+                              },
+                              {
+                                 "text": "Q",
+                                 "color": "yellow"
+                              },
+                              {
+                                 "text": " 来购买这个商品",
+                                 "color": "white"
+                              }
+                           ]
+                        },
+                        {
+                           "text": "▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬",
+                           "color": "gray",
+                           "italic": false
+                        }
+                     ]
+                  }
+               ]
+            }
+         ]
+      }
+   ]
+}

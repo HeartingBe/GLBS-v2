@@ -1,0 +1,128 @@
+{
+   "pools": [
+      {
+         "rolls": 1,
+         "entries": [
+            {
+               "type": "minecraft:item",
+               "name": "minecraft:stone_button",
+               "functions": [
+                  {
+                     "function": "minecraft:set_nbt",
+                     "tag": "{GLBSlore:1b}"
+                  },
+                  {
+                     "function": "minecraft:set_lore",
+                     "entity": "this",
+                     "lore": [
+                        {
+                           "text": "▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬",
+                           "color": "gray",
+                           "italic": false
+                        },
+                        {
+                           "text": "",
+                           "italic": false,
+                           "extra":[
+                              {
+                                 "text": "出售商店 ",
+                                 "color": "aqua",
+                                 "bold": true
+                              },
+                              {
+                                 "text": "编号: ",
+                                 "color": "aqua"
+                              },
+                              {
+                                 "score": {
+                                    "name": "#GLBSorder",
+                                    "objective": "GLBSinfo"
+                                 },
+                                 "color": "gold"
+                              }
+                           ]
+                        },
+                        {
+                           "text": ""
+                        },
+                        {
+                           "text": "",
+                           "italic": false,
+                           "extra": [
+                              {
+                                 "text": "商品售价: ","color": "white"
+                              },
+                              {
+                                 "text": "¥",
+                                 "color": "aqua"
+                              },
+                              {
+                                 "score": {
+                                    "name": "#GLBStemp_price",
+                                    "objective": "GLBSinfo"
+                                 },
+                                 "color": "yellow"
+                              }
+                           ]
+                        },
+                        {
+                           "text": "",
+                           "italic": false,
+                           "extra": [
+                              {
+                                 "text": "编辑员: ","color": "gold"
+                              },
+                              {
+                                 "selector": "@p[tag=GLBSop]",
+                                 "color": "yellow"
+                              }
+                           ]
+                        },
+                        {
+                           "text": "",
+                           "italic": false,
+                           "extra": [
+                              {
+                                 "text": "剩余时间: ","color": "dark_aqua"
+                              },
+                              {
+                                 "text": " 无限",
+                                 "color": "gray"
+                              }
+                           ]
+                        },
+                        {
+                           "text": ""
+                        },
+                        {
+                           "text": "",
+                           "italic": false,
+                           "bold": true,
+                           "extra": [
+                              {
+                                 "text": "按 ",
+                                 "color": "aqua"
+                              },
+                              {
+                                 "text": "Q",
+                                 "color": "yellow"
+                              },
+                              {
+                                 "text": " 来购买这个商品",
+                                 "color": "aqua"
+                              }
+                           ]
+                        },
+                        {
+                           "text": "▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬",
+                           "color": "gray",
+                           "italic": false
+                        }
+                     ]
+                  }
+               ]
+            }
+         ]
+      }
+   ]
+}

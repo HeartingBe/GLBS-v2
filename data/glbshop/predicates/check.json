@@ -1,0 +1,32 @@
+{
+   "condition": "minecraft:alternative",
+   "terms": [
+      {
+         "condition": "minecraft:entity_scores",
+         "entity": "this",
+         "scores": {
+            "GLBScheck_shop": {
+               "min": 1
+            }
+         }
+      },
+      {
+         "condition": "minecraft:entity_scores",
+         "entity": "this",
+         "scores": {
+            "GLBScheck_bought": {
+               "min": 1
+            }
+         }
+      },
+      {
+         "condition": "minecraft:entity_scores",
+         "entity": "this",
+         "scores": {
+            "GLBScheck_sold": {
+               "min": 1
+            }
+         }
+      }
+   ]
+}

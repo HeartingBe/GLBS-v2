@@ -1,0 +1,45 @@
+{
+   "pools": [
+      {
+         "rolls": 1,
+         "entries": [
+            {
+               "type": "minecraft:item",
+               "name": "minecraft:stone_button",
+               "functions": [
+                  {
+                     "function": "minecraft:set_nbt",
+                     "tag": "{GLBSlore:1b}"
+                  },
+                  {
+                     "function": "minecraft:set_lore",
+                     "entity": "this",
+                     "lore": [
+                        {
+                           "text": "",
+                           "italic": false,
+                           "extra": [
+                              {
+                                 "text": "剩余时间: ","color": "white"
+                              },
+                              {
+                                 "score": {
+                                    "name": "#GLBStimer_modify",
+                                    "objective": "GLBSinfo"
+                                 },
+                                 "color": "gray"
+                              },
+                              {
+                                 "text": " 游戏日",
+                                 "color": "gray"
+                              }
+                           ]
+                        }
+                     ]
+                  }
+               ]
+            }
+         ]
+      }
+   ]
+}

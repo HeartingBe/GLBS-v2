@@ -1,0 +1,128 @@
+{
+   "pools": [
+      {
+         "rolls": 1,
+         "entries": [
+            {
+               "type": "minecraft:item",
+               "name": "minecraft:stone_button",
+               "functions": [
+                  {
+                     "function": "minecraft:set_nbt",
+                     "tag": "{GLBSlore:1b}"
+                  },
+                  {
+                     "function": "minecraft:set_lore",
+                     "entity": "this",
+                     "lore": [
+                        {
+                           "text": "▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬",
+                           "color": "gray",
+                           "italic": false
+                        },
+                        {
+                           "text": "",
+                           "italic": false,
+                           "extra":[
+                              {
+                                 "text": "回收商店 ",
+                                 "color": "gold",
+                                 "bold": true
+                              },
+                              {
+                                 "text": "编号: ",
+                                 "color": "white"
+                              },
+                              {
+                                 "score": {
+                                    "name": "#GLBSorder",
+                                    "objective": "GLBSinfo"
+                                 },
+                                 "color": "yellow"
+                              }
+                           ]
+                        },
+                        {
+                           "text": ""
+                        },
+                        {
+                           "text": "",
+                           "italic": false,
+                           "extra": [
+                              {
+                                 "text": "物品回收价格: ","color": "white"
+                              },
+                              {
+                                 "text": "¥ ",
+                                 "color": "yellow"
+                              },
+                              {
+                                 "score": {
+                                    "name": "#GLBStemp_price",
+                                    "objective": "GLBSinfo"
+                                 },
+                                 "color": "light_purple"
+                              }
+                           ]
+                        },
+                        {
+                           "text": "",
+                           "italic": false,
+                           "extra": [
+                              {
+                                 "text": "编辑员: ","color": "white"
+                              },
+                              {
+                                 "selector": "@p[tag=GLBSop]",
+                                 "color": "yellow"
+                              }
+                           ]
+                        },
+                        {
+                           "text": "",
+                           "italic": false,
+                           "extra": [
+                              {
+                                 "text": "剩余时间: ","color": "white"
+                              },
+                              {
+                                 "text": " 无限",
+                                 "color": "gray"
+                              }
+                           ]
+                        },
+                        {
+                           "text": ""
+                        },
+                        {
+                           "text": "",
+                           "italic": false,
+                           "bold": true,
+                           "extra": [
+                              {
+                                 "text": "按 ",
+                                 "color": "white"
+                              },
+                              {
+                                 "text": "Q",
+                                 "color": "yellow"
+                              },
+                              {
+                                 "text": " 向回收商店提交物品",
+                                 "color": "white"
+                              }
+                           ]
+                        },
+                        {
+                           "text": "▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬",
+                           "color": "gray",
+                           "italic": false
+                        }
+                     ]
+                  }
+               ]
+            }
+         ]
+      }
+   ]
+}

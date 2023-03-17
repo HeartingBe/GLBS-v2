@@ -1,0 +1,655 @@
+{
+   "pools": [
+      {
+         "rolls": 4,
+         "entries": [
+            {
+               "type": "minecraft:item",
+               "name": "minecraft:black_stained_glass_pane"
+            }
+         ],
+         "functions": [
+            {
+               "function": "minecraft:set_name",
+               "name": {
+                  "text": "小业是个呆瓜",
+                  "color": "light_purple",
+                  "italic": false
+               }
+            },
+            {
+               "function": "minecraft:set_nbt",
+               "tag": "{glbs:{shop:1b}}"
+            }
+         ]
+      },
+      {
+         "rolls": 1,
+         "entries": [
+            {
+               "type": "minecraft:item",
+               "name": "minecraft:player_head",
+               "functions": [
+                  {
+                     "function": "minecraft:set_name",
+                     "name": {
+                        "text": "作者信息",
+                        "italic": false,
+                        "color":"yellow"
+                     }
+                  },
+                  {
+                     "function": "minecraft:set_lore",
+                     "lore": [
+                        {
+                           "text":""
+                        },
+                        {
+                           "text":"",
+                           "italic": false,
+                           "extra": [
+                              {
+                                 "text": "Bilibili: ",
+                                 "color": "white"
+                              },
+                              {
+                                 "text": "创小业",
+                                 "color": "yellow"
+                              }
+                           ]
+                        },
+                        {
+                           "text":"",
+                           "italic": false,
+                           "extra": [
+                              {
+                                 "text": "所属: ",
+                                 "color": "white"
+                              },
+                              {
+                                 "text": "虚灵工坊",
+                                 "color": "yellow"
+                              }
+                           ]
+                        },
+                        {
+                           "text":"",
+                           "italic": false,
+                           "extra": [
+                              {
+                                 "text": "mcbbs: ",
+                                 "color": "white"
+                              },
+                              {
+                                 "text": "Mini_Ye",
+                                 "color": "yellow"
+                              }
+                           ]
+                        },
+                        {
+                           "text":"",
+                           "italic": false,
+                           "extra": [
+                              {
+                                 "text": "minecraft: ",
+                                 "color": "white"
+                              },
+                              {
+                                 "text": "Mini_Ye",
+                                 "color": "yellow"
+                              }
+                           ]
+                        }
+                     ]
+                  }
+               ]
+            }
+         ],
+         "functions": [
+            {
+               "function": "minecraft:fill_player_head",
+               "entity": "this"
+            },
+            {
+               "function": "minecraft:set_nbt",
+               "tag": "{glbs:{shop:1b}}"
+            }
+         ]
+      },
+      {
+         "rolls": 5,
+         "entries": [
+            {
+               "type": "minecraft:item",
+               "name": "minecraft:black_stained_glass_pane"
+            }
+         ],
+         "functions": [
+            {
+               "function": "minecraft:set_name",
+               "name": {
+                  "text": "小业是个呆瓜",
+                  "color": "light_purple",
+                  "italic": false
+               }
+            },
+            {
+               "function": "minecraft:set_nbt",
+               "tag": "{glbs:{shop:1b}}"
+            }
+         ]
+      },
+      {
+         "rolls": 1,
+         "entries": [
+            {
+               "type": "minecraft:item",
+               "name": "minecraft:writable_book"
+            }
+         ],
+         "functions": [
+            {
+               "function": "minecraft:set_name",
+               "name": {
+                  "text": "小业的“手书”",
+                  "color": "yellow",
+                  "italic": false
+               }
+            },
+            {
+               "function": "minecraft:set_lore",
+               "entity": "this",
+               "lore": [
+                  {
+                     "text": ""
+                  },
+                  {
+                     "text": "",
+                     "italic": false,
+                     "extra": [
+                        {
+                           "text": ">> ",
+                           "color": "white"
+                        },
+                        {
+                           "text": "你好哇! 我的伙伴 ",
+                           "color": "dark_aqua"
+                        },
+                        {
+                           "selector": "@p[distance=..5]","color": "yellow"
+                        }
+                     ]
+                  },
+                  {
+                     "text": "",
+                     "italic": false,
+                     "extra": [
+                        {
+                           "text": ">> ",
+                           "color": "white"
+                        },
+                        {
+                           "text": "很幸运以这样的方式和你见面",
+                           "color": "aqua"
+                        }
+                     ]
+                  },
+                  {
+                     "text": "",
+                     "italic": false,
+                     "extra": [
+                        {
+                           "text": ">> ",
+                           "color": "white"
+                        },
+                        {
+                           "text": "这个数据包花了小业好多心思呢",
+                           "color": "dark_aqua"
+                        }
+                     ]
+                  },
+                  {
+                     "text": "",
+                     "italic": false,
+                     "extra": [
+                        {
+                           "text": ">> ",
+                           "color": "white"
+                        },
+                        {
+                           "text": "希望它能给你留下好的印象",
+                           "color": "aqua"
+                        }
+                     ]
+                  },
+                  {
+                     "text":"",
+                     "italic": false,
+                     "extra": [
+                        {
+                           "text": ">> ",
+                           "color": "white"
+                        },
+                        {
+                           "text": "如果你发现了 bug 或者有好提议",
+                           "color": "dark_aqua"
+                        }
+                     ]
+                  },
+                  {
+                     "text":"",
+                     "italic": false,
+                     "extra": [
+                        {
+                           "text": ">> ",
+                           "color": "white"
+                        },
+                        {
+                           "text": "我会一直等你",
+                           "color": "aqua"
+                        }
+                     ]
+                  },
+                  {
+                     "text": ""
+                  },
+                  {
+                     "text":"",
+                     "italic": false,
+                     "extra": [
+                        {
+                           "text": "按 ",
+                           "color": "white"
+                        },
+                        {
+                           "text": "Q",
+                           "color": "yellow"
+                        },
+                        {
+                           "text": " 或 ",
+                           "color": "white"
+                        },
+                        {
+                           "text": "左键",
+                           "color": "yellow"
+                        },
+                        {
+                           "text": " 告诉小业~",
+                           "color": "white"
+                        }
+                     ]
+                  }
+               ]
+            },
+            {
+               "function": "minecraft:set_nbt",
+               "tag": "{glbs:{shop:1b}}"
+            }
+         ]
+      },
+      {
+         "rolls": 1,
+         "entries": [
+            {
+               "type": "minecraft:item",
+               "name": "minecraft:black_stained_glass_pane"
+            }
+         ],
+         "functions": [
+            {
+               "function": "minecraft:set_name",
+               "name": {
+                  "text": "小业是个呆瓜",
+                  "color": "light_purple",
+                  "italic": false
+               }
+            },
+            {
+               "function": "minecraft:set_nbt",
+               "tag": "{glbs:{shop:1b}}"
+            }
+         ]
+      },
+      {
+         "rolls": 1,
+         "entries": [
+            {
+               "type": "minecraft:item",
+               "name": "minecraft:beacon"
+            }
+         ],
+         "functions": [
+            {
+               "function": "minecraft:set_name",
+               "name": {
+                  "text": "全球商店",
+                  "color": "yellow",
+                  "italic": false
+               }
+            },
+            {
+               "function": "minecraft:set_lore",
+               "lore": [
+                  {
+                     "text": ""
+                  },
+                  {
+                     "text":"",
+                     "italic": false,
+                     "extra": [
+                        {
+                           "text": "按 ",
+                           "color": "white"
+                        },
+                        {
+                           "text": "Q",
+                           "color": "yellow"
+                        },
+                        {
+                           "text": " 或 ",
+                           "color": "white"
+                        },
+                        {
+                           "text": "左键",
+                           "color": "yellow"
+                        },
+                        {
+                           "text": " 进入全球商店",
+                           "color": "white"
+                        }
+                     ]
+                  }
+               ]
+            },
+            {
+               "function": "minecraft:set_nbt",
+               "tag": "{glbs:{shop:1b}}"
+            }
+         ]
+      },
+      {
+         "rolls": 1,
+         "entries": [
+            {
+               "type": "minecraft:item",
+               "name": "minecraft:barrel"
+            }
+         ],
+         "functions": [
+            {
+               "function": "minecraft:set_name",
+               "name": {
+                  "text": "出售商店",
+                  "color": "yellow",
+                  "italic": false
+               }
+            },
+            {
+               "function": "minecraft:set_lore",
+               "lore": [
+                  {
+                     "text": ""
+                  },
+                  {
+                     "text":"",
+                     "italic": false,
+                     "extra": [
+                        {
+                           "text": "按 ",
+                           "color": "white"
+                        },
+                        {
+                           "text": "Q",
+                           "color": "yellow"
+                        },
+                        {
+                           "text": " 或 ",
+                           "color": "white"
+                        },
+                        {
+                           "text": "左键",
+                           "color": "yellow"
+                        },
+                        {
+                           "text": " 进入出售商店",
+                           "color": "white"
+                        }
+                     ]
+                  }
+               ]
+            },
+            {
+               "function": "minecraft:set_nbt",
+               "tag": "{glbs:{shop:1b}}"
+            }
+         ]
+      },
+      {
+         "rolls": 1,
+         "entries": [
+            {
+               "type": "minecraft:item",
+               "name": "minecraft:composter"
+            }
+         ],
+         "functions": [
+            {
+               "function": "minecraft:set_name",
+               "name": {
+                  "text": "回收商店",
+                  "color": "gold",
+                  "italic": false
+               }
+            },
+            {
+               "function": "minecraft:set_lore",
+               "lore": [
+                  {
+                     "text": ""
+                  },
+                  {
+                     "text":"",
+                     "italic": false,
+                     "extra": [
+                        {
+                           "text": "按 ",
+                           "color": "white"
+                        },
+                        {
+                           "text": "Q",
+                           "color": "yellow"
+                        },
+                        {
+                           "text": " 或 ",
+                           "color": "white"
+                        },
+                        {
+                           "text": "左键",
+                           "color": "yellow"
+                        },
+                        {
+                           "text": " 进入回收商店",
+                           "color": "white"
+                        }
+                     ]
+                  }
+               ]
+            },
+            {
+               "function": "minecraft:set_nbt",
+               "tag": "{glbs:{shop:1b}}"
+            }
+         ]
+      },
+      {
+         "rolls": 1,
+         "entries": [
+            {
+               "type": "minecraft:item",
+               "name": "minecraft:black_stained_glass_pane"
+            }
+         ],
+         "functions": [
+            {
+               "function": "minecraft:set_name",
+               "name": {
+                  "text": "小业是个呆瓜",
+                  "color": "light_purple",
+                  "italic": false
+               }
+            },
+            {
+               "function": "minecraft:set_nbt",
+               "tag": "{glbs:{shop:1b}}"
+            }
+         ]
+      },
+      {
+         "rolls": 1,
+         "entries": [
+            {
+               "type": "minecraft:item",
+               "name": "minecraft:barrier"
+            }
+         ],
+         "functions": [
+            {
+               "function": "minecraft:set_name",
+               "name": {
+                  "text": "关闭商店",
+                  "color": "red",
+                  "italic": false
+               }
+            },
+            {
+               "function": "minecraft:set_lore",
+               "lore": [
+                  {
+                     "text": ""
+                  },
+                  {
+                     "text":"",
+                     "italic": false,
+                     "extra": [
+                        {
+                           "text": "按 ",
+                           "color": "white"
+                        },
+                        {
+                           "text": "Q",
+                           "color": "yellow"
+                        },
+                        {
+                           "text": " 或 ",
+                           "color": "white"
+                        },
+                        {
+                           "text": "左键",
+                           "color": "yellow"
+                        },
+                        {
+                           "text": " 关闭商店",
+                           "color": "white"
+                        }
+                     ]
+                  }
+               ]
+            },
+            {
+               "function": "minecraft:set_nbt",
+               "tag": "{glbs:{shop:1b}}"
+            }
+         ]
+      },
+      {
+         "rolls": 5,
+         "entries": [
+            {
+               "type": "minecraft:item",
+               "name": "minecraft:black_stained_glass_pane"
+            }
+         ],
+         "functions": [
+            {
+               "function": "minecraft:set_name",
+               "name": {
+                  "text": "小业是个呆瓜",
+                  "color": "light_purple",
+                  "italic": false
+               }
+            },
+            {
+               "function": "minecraft:set_nbt",
+               "tag": "{glbs:{shop:1b}}"
+            }
+         ]
+      },
+      {
+         "rolls": 1,
+         "entries": [
+            {
+               "type": "minecraft:item",
+               "name": "minecraft:paper"
+            }
+         ],
+         "functions": [
+            {
+               "function": "minecraft:set_name",
+               "name": {
+                  "text": "",
+                  "italic": false,
+                  "extra": [
+                     {
+                        "text": "金钱",
+                        "color": "light_purple"
+                     },
+                     {
+                        "text": " <=> ",
+                        "color": "white"
+                     },
+                     {
+                        "text": "物品",
+                        "color": "light_purple"
+                     }
+                  ]
+               }
+            },
+            {
+               "function": "minecraft:set_lore",
+               "lore": [
+                  {
+                     "text": ""
+                  }
+               ]
+            },
+            {
+               "function": "minecraft:set_nbt",
+               "tag": "{glbs:{shop:1b}}"
+            }
+         ]
+      },
+      {
+         "rolls": 5,
+         "entries": [
+            {
+               "type": "minecraft:item",
+               "name": "minecraft:black_stained_glass_pane"
+            }
+         ],
+         "functions": [
+            {
+               "function": "minecraft:set_name",
+               "name": {
+                  "text": "小业是个呆瓜",
+                  "color": "light_purple",
+                  "italic": false
+               }
+            },
+            {
+               "function": "minecraft:set_nbt",
+               "tag": "{glbs:{shop:1b}}"
+            }
+         ]
+      }
+   ]
+}

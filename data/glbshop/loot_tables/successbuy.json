@@ -1,0 +1,44 @@
+{
+   "pools": [
+      {
+         "rolls": 1,
+         "entries": [
+            {
+               "type": "minecraft:item",
+               "name": "minecraft:stone_button",
+               "functions": [
+                  {
+                     "function": "minecraft:set_nbt",
+                     "tag": "{GLBSlore:1b}"
+                  },
+                  {
+                     "function": "minecraft:set_lore",
+                     "entity": "this",
+                     "lore": [
+                        {
+                           "text": "",
+                           "italic": false,
+                           "extra": [
+                              {
+                                 "text": "购买玩家: ","color": "white"
+                              },
+                              {
+                                 "selector": "@p",
+                                 "color": "yellow"
+                              }
+                           ]
+                        },
+                        {
+                           "text": "已出售",
+                           "color": "green",
+                           "italic": false,
+                           "bold": true
+                        }
+                     ]
+                  }
+               ]
+            }
+         ]
+      }
+   ]
+}
